@@ -34,9 +34,9 @@ public class CVFragment extends Fragment {
 
         // create a list of cv items
         items = new ArrayList<>();
-        items.add(new CVItem("SSLC 10th Standard",getString(R.string.sslcdetails)));
-        items.add(new CVItem("HSC 12th Standard",getString(R.string.hscdetails)));
-        items.add(new CVItem("B.Sc Computer Science",getString(R.string.bscdetails)));
+        items.add(new CVItem("SSLC - 10th Standard",getString(R.string.sslcdetails)));
+        items.add(new CVItem("HSC - 12th Standard",getString(R.string.hscdetails)));
+        items.add(new CVItem("B.Sc Computer Science (Pursuing)",getString(R.string.bscdetails)));
         adapter = new CVAdapter(items);
 
         RvCv.setLayoutManager(new LinearLayoutManager(getContext()));

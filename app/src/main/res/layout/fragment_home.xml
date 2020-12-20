@@ -79,10 +79,10 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/calibri"
                     android:text="@string/about_me"
-                    android:lineSpacingExtra="5dp"
+                    android:lineSpacingExtra="8dp"
                     android:textAlignment="gravity"
                     android:textSize="18sp"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="8dp"
                     android:textColor="#000"/>
 
                 <TextView
@@ -102,8 +102,8 @@
                     android:text="@string/about_certifications"
                     android:textAlignment="gravity"
                     android:textSize="18sp"
-                    android:lineSpacingExtra="5dp"
-                    android:layout_marginTop="5dp"
+                    android:lineSpacingExtra="8dp"
+                    android:layout_marginTop="8dp"
                     android:textColor="#000"/>
 
             </LinearLayout>
