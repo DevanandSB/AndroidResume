@@ -10,7 +10,7 @@ public class CVItem {
         this.description = description;
     }
 
-    public CVItem() {
+    public CVItem(int sslc, String string) {
     }
 
     public String getTitle() {

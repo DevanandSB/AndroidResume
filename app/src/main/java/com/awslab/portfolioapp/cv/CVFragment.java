@@ -34,11 +34,9 @@ public class CVFragment extends Fragment {
 
         // create a list of cv items
         items = new ArrayList<>();
-        items.add(new CVItem("20 April 2013",getString(R.string.lorem_text)));
-        items.add(new CVItem("20 May 2013",getString(R.string.lorem_text2)));
-        items.add(new CVItem("25 July 2013",getString(R.string.lorem_text)));
-        items.add(new CVItem("20 April 2013",getString(R.string.lorem_text2)));
-
+        items.add(new CVItem(R.string.sslc,getString(R.string.sslcdetails)));
+        items.add(new CVItem(R.string.hsc,getString(R.string.hscdetails)));
+        items.add(new CVItem(R.string.bsc,getString(R.string.bscdetails)));
         adapter = new CVAdapter(items);
 
         RvCv.setLayoutManager(new LinearLayoutManager(getContext()));

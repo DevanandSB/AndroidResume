@@ -11,6 +11,12 @@
     <string name="name">Devanand S B</string>
     <string name="certificates">Important Certifications</string>
     <string name="diploma">Computer Science Diploma</string>
+    <string name="sslc">SSLC 10<sup>th</sup> Standard</string>
+    <string name="sslcdetails">Studied at: Sri Vivekananda Matriculation Higher Secondary School, Ambur <br/> <br/> Board: State Board<br/> <br/>Percentage: 91.80%<br/> <br/>Year of passing: 2016</string>
+    <string name="hsc">HSC 12<sup>th</sup> Standard</string>
+    <string name="hscdetails">Studied at: Sri Vivekananda Matriculation Higher Secondary School, Ambur <br/> <br/> Board: State Board<br/> <br/>Percentage: 77.16%<br/> <br/>Year of passing: 2018</string>
+    <string name="bsc">B.Sc Computer Science</string>
+    <string name="bscdetails">Studied at: Sacred Heart College, Tirupattur <br/> <br/> University: Thiruvalluvar University<br/> <br/>Percentage: 69.85%(Upto 4<sup>th</sup>Semester<br/> <br/>Year of passing: 2021</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
