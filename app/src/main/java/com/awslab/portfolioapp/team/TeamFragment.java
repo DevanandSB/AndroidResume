@@ -48,9 +48,9 @@ public class TeamFragment extends Fragment {
 
         // create list of team items
 
-        TeamItem item = new TeamItem("Jhon Doe",getString(R.string.lorem_text2),R.drawable.user);
-        TeamItem item2 = new TeamItem("Ahmed Ali",getString(R.string.lorem_text2),R.drawable.uservoyager);
-        TeamItem item3 = new TeamItem("Islam Ahmed",getString(R.string.lorem_text2),R.drawable.userspace);
+        TeamItem item = new TeamItem("Jhon Doe",getString(R.string.about_certifications),R.drawable.user);
+        TeamItem item2 = new TeamItem("Ahmed Ali",getString(R.string.about_certifications),R.drawable.uservoyager);
+        TeamItem item3 = new TeamItem("Islam Ahmed",getString(R.string.about_certifications),R.drawable.userspace);
 
         mdata = new ArrayList<>();
         mdata.add(item);

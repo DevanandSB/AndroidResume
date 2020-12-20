@@ -42,7 +42,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:lineSpacingExtra="8sp"
-        android:text="@string/lorem_text2"
+        android:text="@string/certificates"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/team_item_img"
