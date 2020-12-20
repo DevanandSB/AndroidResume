@@ -50,7 +50,7 @@ public class TeamAdapter extends RecyclerView.Adapter<TeamAdapter.TeamViewHolder
         public TeamViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            tv_desc = itemView.findViewById(R.id.team_item_desc);
+//            tv_desc = itemView.findViewById(R.id.team_item_desc);
         }
     }
 }
