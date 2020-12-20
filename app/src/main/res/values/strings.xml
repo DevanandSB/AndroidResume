@@ -5,11 +5,11 @@
     <!-- Simple text Strings -->
 
 
-    <string name="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </string>
-    <string name="job_name">Graphic Designer &amp; Programmer</string>
-    <string name="lorem_text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</string>
-    <string name="name">Bennet\nSebastian</string>
-    <string name="current_job_post">Current Job Post</string>
+    <string name="about_me"><p>I'm Devanand S B currently pursuing B.Sc in Computer Science at Sacred Heart College, Tirupattur. I'm very eager to learn new things in the field of technology. I'm very much interested in Android App Backend Development. </p></string>
+    <string name="place">Ambur, India</string>
+    <string name="about_certifications"><p> I have completed Google certified Digital marketing course. I did my internship at Microsoft Corporation via Foxmula Technologies in the role of Android Developer. I have created two certification courses in udemy on Linux and Python. </p></string>
+    <string name="name">Devanand S B</string>
+    <string name="certificates">Important Certifications</string>
     <string name="diploma">Computer Science Diploma</string>
 
     <!-- TODO: Remove or change this placeholder text -->
