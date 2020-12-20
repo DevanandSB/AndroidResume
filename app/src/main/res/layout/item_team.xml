@@ -5,11 +5,10 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/team_card_bg"
     android:layout_marginTop="8dp">
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/team_item_img"
+        android:id="@+id/googleicon"
         android:layout_width="32dp"
         android:layout_height="32dp"
         android:layout_marginStart="8dp"
@@ -17,34 +16,31 @@
         android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/user" />
+        android:src="@drawable/google" />
 
     <TextView
         android:textStyle="bold"
-        android:id="@+id/team_item_name"
+        android:id="@+id/googletitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:text="Jhon Doe"
-        app:layout_constraintStart_toEndOf="@+id/team_item_img"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="15dp"
+        android:text="Google  "
+        android:drawableRight="@drawable/verified"
+        app:layout_constraintStart_toEndOf="@id/googleicon"
+        app:layout_constraintTop_toTopOf="parent"
+        android:drawableEnd="@drawable/verified" />
 
-    <TextView
+    <ImageView
         android:id="@+id/team_item_desc"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
+        android:layout_width="320dp"
+        android:layout_height="230dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:lineSpacingExtra="8sp"
-        android:text="@string/certificates"
+        android:src="@drawable/googlecerti"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/team_item_img"
-        app:layout_constraintTop_toBottomOf="@+id/team_item_name" />
+        app:layout_constraintStart_toStartOf="@id/googleicon"
+        app:layout_constraintTop_toBottomOf="@+id/googletitle" />
 </androidx.constraintlayout.widget.ConstraintLayout>

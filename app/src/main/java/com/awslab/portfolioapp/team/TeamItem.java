@@ -2,16 +2,17 @@ package com.awslab.portfolioapp.team;
 
 public class TeamItem {
 
-    private String name,desc;
-    private int img ;
+    private String name;
+    private int img;
+    private String imgcerti ;
 
     public TeamItem(String name, String desc, int img) {
         this.name = name;
-        this.desc = desc;
+        this.imgcerti = imgcerti;
         this.img = img;
     }
 
-    public TeamItem() {
+    public TeamItem(String google, int googlecerti, int img) {
     }
 
     public String getName() {
@@ -23,11 +24,11 @@ public class TeamItem {
     }
 
     public String getDesc() {
-        return desc;
+        return imgcerti;
     }
 
     public void setDesc(String desc) {
-        this.desc = desc;
+        this.imgcerti = desc;
     }
 
     public int getImg() {

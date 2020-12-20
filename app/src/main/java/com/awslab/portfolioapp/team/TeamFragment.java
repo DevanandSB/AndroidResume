@@ -48,14 +48,10 @@ public class TeamFragment extends Fragment {
 
         // create list of team items
 
-        TeamItem item = new TeamItem("Jhon Doe",getString(R.string.about_certifications),R.drawable.user);
-        TeamItem item2 = new TeamItem("Ahmed Ali",getString(R.string.about_certifications),R.drawable.uservoyager);
-        TeamItem item3 = new TeamItem("Islam Ahmed",getString(R.string.about_certifications),R.drawable.userspace);
+        TeamItem item = new TeamItem("Google",R.drawable.googlecerti,R.drawable.google);
 
         mdata = new ArrayList<>();
         mdata.add(item);
-        mdata.add(item2);
-        mdata.add(item3);
 
         // setup adapter and recyclerview
 

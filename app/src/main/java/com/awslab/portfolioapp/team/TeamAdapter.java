@@ -35,12 +35,6 @@ public class TeamAdapter extends RecyclerView.Adapter<TeamAdapter.TeamViewHolder
     @Override
     public void onBindViewHolder(@NonNull TeamViewHolder holder, int position) {
 
-        holder.tv_name.setText(mdata.get(position).getName());
-        holder.tv_desc.setText(mdata.get(position).getDesc());
-        holder.img.setImageResource(mdata.get(position).getImg());
-
-
-
 
     }
 
@@ -51,15 +45,12 @@ public class TeamAdapter extends RecyclerView.Adapter<TeamAdapter.TeamViewHolder
 
     public class TeamViewHolder extends RecyclerView.ViewHolder {
 
-        TextView tv_name,tv_desc;
-        ImageView img;
+        ImageView img,tv_desc;
 
         public TeamViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            tv_name = itemView.findViewById(R.id.team_item_name) ;
             tv_desc = itemView.findViewById(R.id.team_item_desc);
-            img = itemView.findViewById(R.id.team_item_img);
         }
     }
 }
