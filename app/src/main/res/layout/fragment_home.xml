@@ -79,6 +79,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/calibri"
                     android:text="@string/about_me"
+                    android:lineSpacingExtra="5dp"
                     android:textAlignment="gravity"
                     android:textSize="18sp"
                     android:layout_marginTop="5dp"
@@ -92,7 +93,7 @@
                     android:textColor="#000"
                     android:textStyle="bold"
                     android:textSize="22sp"
-                    android:layout_marginTop="5dp" />
+                    android:layout_marginTop="15dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -101,6 +102,7 @@
                     android:text="@string/about_certifications"
                     android:textAlignment="gravity"
                     android:textSize="18sp"
+                    android:lineSpacingExtra="5dp"
                     android:layout_marginTop="5dp"
                     android:textColor="#000"/>
 
