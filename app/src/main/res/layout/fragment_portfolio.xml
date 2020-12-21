@@ -7,6 +7,15 @@
     android:layout_height="match_parent"
     tools:context=".portfolio.PortfolioFragment">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
 
     <TextView
         android:id="@+id/textView11"
@@ -36,8 +45,177 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
+    <TextView
+        android:id="@+id/textTECHNICAL"
+        android:layout_width="0dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Technical Skills"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
 
+    <ImageView
+        android:id="@+id/imgTechnical"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/technical"
+        app:layout_constraintTop_toBottomOf="@id/textTECHNICAL"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
 
+    <TextView
+        android:id="@+id/textsoft"
+        android:layout_width="0dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="bold"
+        android:text="Soft Skills"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgTechnical" />
+
+
+    <ImageView
+        android:id="@+id/imgsoft"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/softskills"
+        app:layout_constraintTop_toBottomOf="@id/textsoft"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/textachivement"
+        android:layout_width="0dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="bold"
+        android:text="Achievements"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgsoft" />
+
+
+    <ImageView
+        android:id="@+id/imgachivement"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/achivement"
+        app:layout_constraintTop_toBottomOf="@id/textachivement"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/textproject"
+        android:layout_width="0dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="My Projects"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgachivement" />
+
+
+    <ImageView
+        android:id="@+id/imgproject"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/project"
+        app:layout_constraintTop_toBottomOf="@id/textproject"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    <TextView
+        android:id="@+id/textstrength"
+        android:layout_width="0dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="bold"
+        android:text="Strength"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgproject" />
+
+
+    <ImageView
+        android:id="@+id/imgstrength"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/strength"
+        app:layout_constraintTop_toBottomOf="@id/textstrength"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/textweakness"
+        android:layout_width="0dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="bold"
+        android:text="Weakness"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgstrength" />
+
+
+    <ImageView
+        android:id="@+id/imgweakness"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/weakness"
+        app:layout_constraintTop_toBottomOf="@id/textweakness"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
