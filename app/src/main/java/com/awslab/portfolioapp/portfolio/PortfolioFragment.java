@@ -53,13 +53,12 @@ public class PortfolioFragment extends Fragment implements PortfolioCallback {
 
 
 
-        mdata.add(new PortfolioItem(R.drawable.project7));
-        mdata.add(new PortfolioItem(R.drawable.project3));
-        mdata.add(new PortfolioItem(R.drawable.project5));
-        mdata.add(new PortfolioItem(R.drawable.project5));
-        mdata.add(new PortfolioItem(R.drawable.project0));
-        mdata.add(new PortfolioItem(R.drawable.project2));
-
+        mdata.add(new PortfolioItem(R.drawable.project7,"Technical Skills","Description1"));
+        mdata.add(new PortfolioItem(R.drawable.project7,"Soft Skills","Description2"));
+        mdata.add(new PortfolioItem(R.drawable.project7,"Strength","Description2"));
+        mdata.add(new PortfolioItem(R.drawable.project7,"Weakness","Description4"));
+        mdata.add(new PortfolioItem(R.drawable.project7,"Achievements","Description5"));
+        mdata.add(new PortfolioItem(R.drawable.project7,"Hobbies & Interest","Description6"));
 
         portfolioAdapter = new PortfolioAdapter(mdata,this);
 

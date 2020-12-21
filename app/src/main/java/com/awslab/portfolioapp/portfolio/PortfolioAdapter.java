@@ -41,6 +41,8 @@ public class PortfolioAdapter extends RecyclerView.Adapter<PortfolioAdapter.Port
     public void onBindViewHolder(@NonNull PortfolioViewHolder holder, int position) {
 
         Glide.with(holder.itemView.getContext()).load(mdata.get(position).getImage()).into(holder.imgport);
+        Glide.with(holder.itemView.getContext()).load(mdata.get(position).getTitle()).into(holder.imgport);
+        Glide.with(holder.itemView.getContext()).load(mdata.get(position).getDescription()).into(holder.imgport);
 
 
 
