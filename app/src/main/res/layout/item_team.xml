@@ -87,12 +87,48 @@
                 android:id="@+id/foxulacerti"
                 android:layout_width="320dp"
                 android:layout_height="450dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginLeft="8dp"
                 android:layout_marginTop="24dp"
                 android:src="@drawable/foxmulacerti"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/foxmulatitle" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/udemyicon"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="530dp"
+                android:src="@drawable/udemy"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/foxmulaicon" />
+
+            <TextView
+                android:id="@+id/udemytitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="30dp"
+                android:drawableEnd="@drawable/verified"
+                android:drawableRight="@drawable/verified"
+                android:text="Udemy  "
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@id/udemyicon"
+                app:layout_constraintTop_toBottomOf="@id/foxulacerti" />
+
+            <ImageView
+                android:id="@+id/udemycerti"
+                android:layout_width="320dp"
+                android:layout_height="230dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/udemycerti"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/udemyicon"
+                app:layout_constraintTop_toBottomOf="@+id/udemytitle" />
+
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
