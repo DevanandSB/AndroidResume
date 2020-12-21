@@ -10,14 +10,14 @@ public class PortfolioItem implements Serializable {
     public PortfolioItem(){
     }
 
-    public PortfolioItem(int image) {
-        this.image = image;
-    }
-
-    public PortfolioItem(int image, String title) {
-        this.image = image;
-        this.title = title;
-    }
+//    public PortfolioItem(int image) {
+//        this.image = image;
+//    }
+//
+//    public PortfolioItem(int image, String title) {
+//        this.image = image;
+//        this.title = title;
+//    }
 
     public PortfolioItem(int image, String title, String description) {
         this.image = image;
