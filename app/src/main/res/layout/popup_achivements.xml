@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="655dp"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/imageID"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/achivement"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/technical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_centerHorizontal="true"
+        android:text="ACHIEVEMENTS"
+        android:layout_below="@id/imageID"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Won 1st place for Android Development in Imaginathon conducted by Park College, Coimbatore\n\n2. Got 1 st place in Technical Quiz competition conducted at MGR College, Hosur in September 2019\n\n3. Presented a paper on Perfect Online Privacy in Commune 2K19\nwon the 1 st place"
+        android:lineSpacingExtra="18dp"
+        android:textSize="18sp"
+        android:layout_below="@id/technical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="22dp"/>
+
+</RelativeLayout>
