@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="450dp"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/imageID"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/project"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/technical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_centerHorizontal="true"
+        android:text="MY PROJECTS"
+        android:layout_below="@id/imageID"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I have created an android application called “Educatie” pronounced as Educate. By this application students
+can know their timetable, syllabus and also students can take their notes. (Under Development)"
+        android:lineSpacingExtra="18dp"
+        android:textSize="18sp"
+        android:layout_below="@id/technical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="22dp"/>
+
+</RelativeLayout>
