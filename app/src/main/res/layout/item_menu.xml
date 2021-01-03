@@ -8,7 +8,7 @@
 
     <ImageView
         android:padding="8dp"
-        android:tint="@color/icon_tint_light"
+        android:tint="#000"
         android:src="@drawable/ic_baseline_home_24"
         android:id="@+id/item_menu_icon"
         android:layout_width="match_parent"

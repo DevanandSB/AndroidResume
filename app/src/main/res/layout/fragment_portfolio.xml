@@ -12,182 +12,286 @@
         android:layout_height="wrap_content"
         tools:ignore="MissingConstraints">
 
-<androidx.constraintlayout.widget.ConstraintLayout
+<LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/technical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="32dp"
-        android:text="Resume"
-        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:lineSpacingExtra="8sp"
-        android:text="Here I have mentioned my Technical Skills, Softskills, Strengths, and Weakness. Click the image to explore my resume."
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView11" />
-
-    <TextView
-        android:id="@+id/textTECHNICAL"
-        android:layout_width="0dp"
-        android:textSize="20sp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:textAlignment="center"
-        android:gravity="center_horizontal"
-        android:textStyle="bold"
-        android:text="Technical Skills"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView12" />
-
+        android:textColor="#000"
+        android:text="TECHNICAL PROFICIENCY"
+        android:textSize="22sp" />
 
     <ImageView
-        android:id="@+id/imgTechnical"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:id="@+id/imageID"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
         android:src="@drawable/technical"
-        app:layout_constraintTop_toBottomOf="@id/textTECHNICAL"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        android:layout_gravity="center"/>
 
     <TextView
-        android:id="@+id/textsoft"
-        android:layout_width="0dp"
-        android:textSize="20sp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:textAlignment="center"
-        android:gravity="center_horizontal"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:textStyle="bold"
-        android:text="Soft Skills"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgTechnical" />
+        android:textColor="#000"
+        android:text="Programming Languages: "
+        android:textSize="16sp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="8dp"
+        android:lineSpacingExtra="6dp"
+        android:textColor="#000"
+        android:text="           C, C++, Java, Python, Shell Scripting, Interested in Android Development"
+        android:textSize="14sp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Operating Systems: "
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:text="           Windows: Windows XP to Windows 10"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_marginTop="4dp"
+        android:text="           Linux: All Debian Distributions in Terminal works"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_marginTop="4dp"
+        android:text="           Mac OS - all distributions"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Software Knowledge: "
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:layout_marginRight="8dp"
+        android:lineSpacingExtra="6dp"
+        android:text="           Microsoft Office (Good at Excel), Libre Office, Google Office and Open Office"
+        android:textSize="14sp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Version Control: "
+        android:layout_marginTop="10dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="25dp"
+        android:textColor="#000"
+        android:layout_marginRight="8dp"
+        android:lineSpacingExtra="6dp"
+        android:text="           GitHub Web Version. GitHub ID: DevanandSB"
+        android:textSize="14sp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="15dp"
+        android:textColor="#000"
+        android:text="SOFT SKILLS"
+        android:textStyle="bold"
+        android:textSize="22sp" />
 
     <ImageView
-        android:id="@+id/imgsoft"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
         android:src="@drawable/softskills"
-        app:layout_constraintTop_toBottomOf="@id/textsoft"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        android:layout_marginRight="15dp"
+        android:layout_gravity="center"/>
 
     <TextView
-        android:id="@+id/textachivement"
-        android:layout_width="0dp"
-        android:textSize="20sp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:textAlignment="center"
-        android:gravity="center_horizontal"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:textStyle="bold"
-        android:text="Achievements"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgsoft" />
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="8dp"
+        android:textColor="#000"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:lineSpacingExtra="8dp"
+        android:text="           Communication Skills, Team Player, Presence of Mind, Time Keeper &amp;Persistence."
+        android:textSize="14sp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginStart="10dp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:text="ACHIEVEMENTS"
+        android:textSize="22sp" />
 
     <ImageView
-        android:id="@+id/imgachivement"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
         android:src="@drawable/achivement"
-        app:layout_constraintTop_toBottomOf="@id/textachivement"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        android:layout_marginRight="15dp"
+        android:layout_gravity="center"/>
 
     <TextView
-        android:id="@+id/textproject"
-        android:layout_width="0dp"
-        android:textSize="20sp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:textAlignment="center"
-        android:gravity="center_horizontal"
-        android:textStyle="bold"
-        android:text="My Projects"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgachivement" />
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="8dp"
+        android:textColor="#000"
+        android:lineSpacingExtra="6dp"
+        android:text="           1. Won 1st place for Android Development in Imaginathon conducted by Park College, Coimbatore."
+        android:textSize="14sp"
+        android:layout_marginEnd="8dp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="8dp"
+        android:lineSpacingExtra="6dp"
+        android:text="           2. Got 1 st place in Technical Quiz competition conducted at MGR College, Hosur in September 2019."
+        android:textSize="14sp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="25dp"
+        android:lineSpacingExtra="6dp"
+        android:text="           3. Presented a paper on Perfect Online Privacy in Commune 2K19 won the 1 st place"
+        android:textSize="14sp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="15dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:text="INDIVIDUAL PROJECT"
+        android:textSize="22sp" />
 
     <ImageView
-        android:id="@+id/imgproject"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginRight="15dp"
         android:src="@drawable/project"
-        app:layout_constraintTop_toBottomOf="@id/textproject"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
-
+        android:layout_gravity="center"/>
 
     <TextView
-        android:id="@+id/textstrength"
-        android:layout_width="0dp"
-        android:textSize="20sp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:textAlignment="center"
-        android:gravity="center_horizontal"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:textStyle="bold"
-        android:text="Extra Curricular Activities"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgproject" />
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="8dp"
+        android:textColor="#000"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:lineSpacingExtra="8dp"
+        android:text="           I have created an android application called “Educatie” pronounced as Educate. By this application students
+can know their timetable, syllabus and also students can take their notes. (Under Development)"
+        android:textSize="14sp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="10dp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="15dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:text="WORKSHOPS &amp; PRESENTATIONS"
+        android:textSize="22sp" />
 
     <ImageView
-        android:id="@+id/imgstrength"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="170dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="170dp"
         android:src="@drawable/strength"
-        app:layout_constraintTop_toBottomOf="@id/textstrength"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        android:layout_gravity="center"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="8dp"
+        android:textColor="#000"
+        android:lineSpacingExtra="6dp"
+        android:text="           1. Attended a workshop on IOT &amp; Robotics at Don Bosco, Yelagiri hills in August 2019."
+        android:textSize="14sp"
+        android:layout_marginEnd="8dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:layout_marginRight="8dp"
+        android:lineSpacingExtra="6dp"
+        android:text="           2. Presented a paper on Cyber &amp; Network Security at PMC Tech, Hosur in September 2019."
+        android:textSize="14sp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="8dp"
+        android:textColor="#000"
+        android:lineSpacingExtra="6dp"
+        android:text="           3. Presented a paper on Ethical Hacking at Loyola College, Chennai in December 2019."
+        android:textSize="14sp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="8dp" />
+
+</LinearLayout>
 
     </ScrollView>
 

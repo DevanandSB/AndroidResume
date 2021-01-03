@@ -5,10 +5,13 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
 
 import com.awslab.portfolioapp.cv.CVFragment;
 import com.awslab.portfolioapp.home.HomeFragment;
 import com.awslab.portfolioapp.portfolio.PortfolioFragment;
+import com.awslab.portfolioapp.portfolio.PortfolioItem;
 import com.awslab.portfolioapp.sidemenu.Callback;
 import com.awslab.portfolioapp.sidemenu.MenuAdapter;
 import com.awslab.portfolioapp.sidemenu.MenuItem;
@@ -24,11 +27,13 @@ public class MainActivity extends AppCompatActivity implements Callback {
     MenuAdapter adapter;
     int selectedMenuPos = 0 ;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getSupportActionBar().hide();
+
 
         // setup side menu
         setupSideMenu();

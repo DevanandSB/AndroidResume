@@ -16,6 +16,9 @@ public class MenuItem {
         this.isSelected = isSelected;
     }
 
+    public MenuItem(int ic_baseline_military_tech_24, boolean b) {
+    }
+
     public int getIcon() {
         return icon;
     }
